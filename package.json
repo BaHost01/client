@@ -1,0 +1,17 @@
+{
+  "name": "@rterm/client-cli",
+  "version": "1.0.0",
+  "description": "Connect to a shared terminal through the rterm relay",
+  "bin": {
+    "rterm-client": "./bin/rterm-client.js"
+  },
+  "main": "src/client.js",
+  "dependencies": {
+    "chalk":    "^4.1.2",
+    "minimist": "^1.2.8",
+    "ws":       "^8.16.0"
+  },
+  "engines": { "node": ">=16.0.0" },
+  "os": ["linux", "darwin", "win32"],
+  "license": "MIT"
+}
